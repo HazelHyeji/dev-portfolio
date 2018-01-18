@@ -1,0 +1,20 @@
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    li{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-right: 10px;
+    }
+    .fa-circle{
+        color: $red;
+        font-size: 10px;
+    }
+}

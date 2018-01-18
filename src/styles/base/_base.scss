@@ -6,13 +6,8 @@ body{
     font-family: helvetica, Arial, sans-serif;
     font-size: $m-size;
     font-family: $league;
+    position: relative;
 }
-button{
-    font-family: $league;
-    cursor: pointer;
-}
-button:disabled {
-    cursor: default;
-}
+
 
 
