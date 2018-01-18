@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    font-family: $league;
+}
+button{
+    font-family: $league;
+    cursor: pointer;
+}
+button:disabled {
+    cursor: default;
+}
+
+
