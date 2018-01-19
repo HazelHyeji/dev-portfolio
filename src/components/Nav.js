@@ -2,14 +2,16 @@ import React from 'react';
 
 const Nav = () => {
     return(
-        <nav>
-            <ul>
-                <li>Projects <i class="fa fa-circle" aria-hidden="true"></i> </li>
-                <li>UI/UX Design <i class="fa fa-circle" aria-hidden="true"></i> </li>
-                <li>About <i class="fa fa-circle" aria-hidden="true"></i> </li>
-                <li>Contact <i class="fa fa-circle" aria-hidden="true"></i> </li>
-            </ul>
-        </nav>
+        <div>
+            <nav>
+                <ul>
+                    <li>Projects</li>
+                    <li>UI/UX Design</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
     )
 }
 
