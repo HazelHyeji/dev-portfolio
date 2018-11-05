@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import NavMenu from '../nav/NavMenu';
+import SocialMediaLinks from '../utils/SocialMediaLinks';
 import Menu from 'react-burger-menu/lib/menus/elastic'
+
 
 class MobileNav extends Component {
   showSettings(event) {
@@ -19,6 +21,7 @@ class MobileNav extends Component {
         >
           <main id="page-wrap">
             <NavMenu />
+            <SocialMediaLinks/>
           </main>
         </Menu>
       </div>
