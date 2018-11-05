@@ -1,6 +1,17 @@
-@import './base/settings';
+// @import './base/settings';
+@import './base/variables';
 @import './base/base';
-@import './base/font';
+// @import './base/font';
 
-//components
-@import './components/Nav';
+// //components
+@import './components/nav/nav';
+@import './components/nav/mobilenav';
+@import './components/background/background';
+@import './components/projects/projects';
+@import './components/skills/skills';
+@import './components/utils/utils';
+@import './components/utils/contact';
+// @import './components/mainContent';
+
+@import './mediaquery/mq.scss';
+

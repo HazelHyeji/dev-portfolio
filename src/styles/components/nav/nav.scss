@@ -1,0 +1,57 @@
+.desktop-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+.desktop-nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.desktop-nav ul li{
+  margin-right: 1em;
+  position: relative;
+  cursor: pointer;
+  padding: 0.2em;
+  transition: all 0.2s ease;
+}
+.desktop-nav ul li:hover{
+  color: white;
+  background: black;
+}
+.desktop-nav ul li:hover > a{
+  color: white;
+}
+.desktop-nav ul li:hover > ul {
+  color: black;
+}
+.desktop-nav ul li:last-child{
+  margin: 0;
+}
+//-nav ul li::before{
+//   content: '';
+//   position: absolute;
+// 	width: 90%;
+// 	height: 15px;
+//   background-color: black;
+//   color: black;
+//   top: 2px;
+// 	left: -5px;
+// 	z-index: -1;
+// 	transition: all 0.2s ease-in;
+// 	transform: scaleX(0);
+// 	transform-origin: left;
+// }
+//-nav ul li:hover::before{
+//   transform: scaleX(1);
+// }
+.desktop-nav ul li > ul{
+  display: none;
+  position: relative;
+  padding: 0.5em;
+}
+.desktop-nav ul li:hover > ul{
+  display: block;
+  position: absolute;
+}

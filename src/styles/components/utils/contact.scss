@@ -1,0 +1,26 @@
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  a{
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    font-style: none;
+    transition: all 0.1s ease;
+    padding: 0.2em;
+    &:hover{
+      background: black;
+      color: white;
+    }
+  }
+  .social-medias{
+    font-size: 2em;
+    position: absolute;
+    bottom: 1em;
+  }
+} 

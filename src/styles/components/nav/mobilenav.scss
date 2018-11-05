@@ -1,0 +1,83 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 26px;
+  height: 20px;
+  right: 20px;
+  top: 20px;
+}
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: black;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+  cursor: pointer;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: black;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: black;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: white;
+  position: relative;
+  display: inline;
+}
+
+/* Individual item */
+.bm-item{
+  display: inline-block;
+}
+
+.bm-item-list{
+  left: 0 !important;
+}
+.mobile-nav ul {
+  padding-top: 30px;
+}
+.mobile-nav ul > li, .mobile-nav ul > li > a{
+  color: white;
+  font-weight: 900;
+  font-size: 32px;
+}
+.mobile-nav ul > li{
+  margin-bottom: 1em;
+}
+.mobile-nav ul > li > a{
+  cursor: pointer;
+  transition: all 0.1s ease;
+  &:hover{
+    color: black;
+    background-color: white;
+  }
+}
+.mobile-nav ul > li > ul > li{
+  margin-bottom: 0em;
+}
+.mobile-nav ul > li > ul > li:first-child{
+  margin-top: 0.5em;
+}
+.mobile-nav ul > li > ul > li > a {
+  font-size: 28px;
+  padding-left: 10px;
+  cursor: pointer;
+}

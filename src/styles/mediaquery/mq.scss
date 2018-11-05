@@ -1,0 +1,64 @@
+@media screen and (max-width: 900px){
+  .project > ul {
+    grid-template-columns: 1fr;
+    .project-description{
+      padding: 2em !important;
+    }
+  }
+}
+@media screen and (max-width: 500px){
+  .width70{
+    width: 90%;
+  }
+  #outer-container{
+    display: block;
+  }
+  .desktop-nav{
+    display: none;
+  }
+  .project > ul{
+    grid-template-columns: 1fr 1fr;
+    .project-description{
+      padding: 0.5em !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      h2{font-size: 1.3em;}
+      h3{font-size: 1em;}
+      p,ul{display: none;}
+    }
+  }
+  .skills ul li{
+    width: 20%;
+    max-width: 120px;
+    &:first-child{
+      width: 60px;
+    }
+    img{
+      width: 100%;
+      padding-left: 1em;
+    }
+  }
+  .skills-container{
+    display: flex;
+    padding: 1em;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
+    h3{
+      width: 60px;
+      font-size: 1em;
+    }
+    ul{
+      display: flex;
+    }
+  }
+  .contact{
+    .social-medias{
+      font-size: 1em;
+      position: absolute;
+      bottom: 1em;
+    }
+  } 
+}

@@ -19,8 +19,11 @@ module.exports = {
                 'css-loader',
                 'sass-loader'
             ]
-        },  {
+        }, {
             test: /\.(ttf|eot|woff|woff2)$/,
+            loader: "file-loader"
+        }, {
+            test: /\.(jpe?g|png|gif|svg)$/i, 
             loader: "file-loader"
         }]
     },

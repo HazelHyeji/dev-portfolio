@@ -1,0 +1,27 @@
+// .skills{
+//   height: 100vh;
+// }
+.skills ul li{
+  width: 16%;
+  max-width: 120px;
+  &:first-child{
+    width: 80px;
+  }
+  img{
+    width: 100%;
+    padding-left: 1em;
+  }
+}
+.skills-container{
+  display: flex;
+  padding: 1em;
+  border-bottom: 1px solid black;
+  width: 90%;
+  margin: 0 auto;
+  h3{
+    width: 100px;
+  }
+  ul{
+    display: flex;
+  }
+}
